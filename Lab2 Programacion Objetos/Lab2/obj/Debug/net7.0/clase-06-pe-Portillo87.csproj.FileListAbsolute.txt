@@ -1,0 +1,30 @@
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.exe
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.deps.json
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.runtimeconfig.json
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.dll
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.pdb
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.csproj.AssemblyReference.cache
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.AssemblyInfoInputs.cache
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.AssemblyInfo.cs
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.csproj.CoreCompileInputs.cache
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.dll
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\refint\clase-06-pe-Portillo87.dll
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.pdb
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.genruntimeconfig.cache
+C:\Users\MINED\Desktop\Tarea de programacion ciclo 2\gu-a-semana-2-Portillo87-1\Clase 06 Ejemplos\clase-06-pe-Portillo87\obj\Debug\net7.0\ref\clase-06-pe-Portillo87.dll
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.exe
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.deps.json
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.runtimeconfig.json
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.dll
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\bin\Debug\net7.0\clase-06-pe-Portillo87.pdb
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.AssemblyInfoInputs.cache
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.AssemblyInfo.cs
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.csproj.CoreCompileInputs.cache
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.sourcelink.json
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.dll
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\refint\clase-06-pe-Portillo87.dll
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.pdb
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\clase-06-pe-Portillo87.genruntimeconfig.cache
+C:\Users\PEDIDOS.SECO\Documentos de Estudios\PROGRAMACION 1\Tarea clase 6\clase-06-pe-Portillo87\obj\Debug\net7.0\ref\clase-06-pe-Portillo87.dll
