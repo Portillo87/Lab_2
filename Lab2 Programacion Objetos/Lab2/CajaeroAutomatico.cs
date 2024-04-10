@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace SistemaGestorATM
@@ -85,6 +85,41 @@ namespace SistemaGestorATM
             }
         }
 
+        static void PagarFacturas(string numeroTarjeta, double cantidad, string proveedor)
+        {
+            foreach (var usuario in usuarios)
+            {
+                if (usuario["numero_tarjeta"].ToString() == numeroTarjeta)
+                {
+                    if ((double)usuario["saldo"] >= cantidad)
+                    {
+                        usuario["saldo"] = (double)usuario["saldo"] - cantidad;
+                        Console.WriteLine($"Factura pagada al proveedor {proveedor}. Nuevo saldo: ${usuario["saldo"]:F2}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Fondos insuficientes para pagar la factura.");
+                    }
+                }
+            }
+        }
+
+        static void CambiarPIN(string numeroTarjeta, string pinActual, string pinNuevo)
+        {
+            foreach (var usuario in usuarios)
+            {
+                if (usuario["numero_tarjeta"].ToString() == numeroTarjeta && usuario["pin"].ToString() == pinActual)
+                {
+                    usuario["pin"] = pinNuevo;
+                    Console.WriteLine("PIN cambiado exitosamente.");
+                }
+                else
+                {
+                    Console.WriteLine("PIN actual incorrecto. Intenta de nuevo.");
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Bienvenido al Sistema de Gestión del ATM");
@@ -113,22 +148,51 @@ namespace SistemaGestorATM
                                 break;
                             case "2":
                                 Console.Write("Ingresa la cantidad a retirar: ");
-                                double cantidadRetiro = Convert.ToDouble(Console.ReadLine());
-                                RetirarDinero(numeroTarjeta, cantidadRetiro);
+                                double cantidadRetiro;
+                                if (double.TryParse(Console.ReadLine(), out cantidadRetiro))
+                                {
+                                    RetirarDinero(numeroTarjeta, cantidadRetiro);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Cantidad inválida. Introduce un número válido.");
+                                }
                                 break;
                             case "3":
                                 Console.Write("Ingresa la cantidad a depositar: ");
-                                double cantidadDeposito = Convert.ToDouble(Console.ReadLine());
-                                Depositar(numeroTarjeta, cantidadDeposito);
+                                double cantidadDeposito;
+                                if (double.TryParse(Console.ReadLine(), out cantidadDeposito))
+                                {
+                                    Depositar(numeroTarjeta, cantidadDeposito);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Cantidad inválida. Introduce un número válido.");
+                                }
                                 break;
                             case "4":
-                                Console.WriteLine("Función de Pago de Facturas no implementada.");
+                                Console.Write("Ingresa la cantidad a pagar: ");
+                                double cantidadPagar;
+                                if (double.TryParse(Console.ReadLine(), out cantidadPagar))
+                                {
+                                    Console.Write("Ingresa el proveedor: ");
+                                    string proveedor = Console.ReadLine();
+                                    PagarFacturas(numeroTarjeta, cantidadPagar, proveedor);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Cantidad inválida. Introduce un número válido.");
+                                }
                                 break;
                             case "5":
-                                Console.WriteLine("La función Cambiar PIN no está implementada.");
+                                Console.Write("Ingresa tu PIN actual: ");
+                                string pinActual = Console.ReadLine();
+                                Console.Write("Ingresa tu nuevo PIN: ");
+                                string pinNuevo = Console.ReadLine();
+                                CambiarPIN(numeroTarjeta, pinActual, pinNuevo);
                                 break;
                             case "6":
-                                Console.WriteLine("Gracias por usar el cajero automático. Adiós!");
+                                Console.WriteLine("Gracias por usar el cajero automático. ¡Adiós!");
                                 return;
                             default:
                                 Console.WriteLine("Elección no válida. Por favor seleccione una opción válida.");
@@ -143,7 +207,7 @@ namespace SistemaGestorATM
             }
             else
             {
-                Console.WriteLine("Numero de tarjeta invalido. Inténtalo de nuevo.");
+                Console.WriteLine("Número de tarjeta inválido. Inténtalo de nuevo.");
             }
         }
     }
